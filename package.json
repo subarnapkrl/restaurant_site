@@ -1,0 +1,23 @@
+{
+  "name": "restaurant_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subarnapkrl/restaurant_site.git"
+  },
+  "author": "Subarna Pokharel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subarnapkrl/restaurant_site/issues"
+  },
+  "homepage": "https://github.com/subarnapkrl/restaurant_site#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
