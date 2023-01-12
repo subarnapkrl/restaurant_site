@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.1;
+}
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+h1{
+    font-family: 'Fredoka One', cursive;
+}
+
+nav{
+    background-color: #0c4a6e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   height: 10%;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.nav-heading{
+    font-size: 38px;
+    margin-left: 10px;
+    color: #ec4899;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fecdd3;
+    
+}
+li:hover{
+    color: #f43f5e;
+    text-decoration: underline;
+
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    position: relative;
+    background-blend-mode: multiply;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #0c4a6e;
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.459),black),url(./assets/restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.current{
+    color: #f43f5e;
+    text-decoration: underline;
+}
+
+.area{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+   
+    font-size: 48px;
+    color: #f43f5e;
+    margin-bottom: 10px;
+}
+h2{
+    font-family: 'Fredoka One', cursive;
+    
+    font-size: 30px; 
+    color: #fed7aa;
+    margin-bottom: 25px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #db2777;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 36px;
+    border: none;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #9d174d;
+    color: #fff;
+}
