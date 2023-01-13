@@ -18,16 +18,16 @@ export  function initialPageLoad()
 
     const linkList1=document.createElement("li");
     linkList1.textContent="Home";
-    linkList1.classList.add("link","current");
+    linkList1.classList.add("link","home","current");
    
 
     const linkList2=document.createElement("li");
     linkList2.textContent="Menu";
-    linkList2.classList.add("link");
+    linkList2.classList.add("link","menu");
 
     const linkList3=document.createElement("li");
     linkList3.textContent="Contact";
-    linkList3.classList.add("link");
+    linkList3.classList.add("link","contact");
 
     navbar.appendChild(navHead);
     navbar.appendChild(ul);
