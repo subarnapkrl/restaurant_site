@@ -18,6 +18,7 @@ export function initialPageLoad()
 
     const linkList1=document.createElement("li");
     linkList1.textContent="Home";
+    
     linkList1.classList.add("link","home","current");
    
 

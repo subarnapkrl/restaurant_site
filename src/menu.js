@@ -24,6 +24,7 @@ export function menu()
 
     const linkList2=document.createElement("li");
     linkList2.textContent="Menu";
+    
     linkList2.classList.add("link","menu","current");
 
     const linkList3=document.createElement("li");

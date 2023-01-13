@@ -2,11 +2,14 @@ import {initialPageLoad} from './initial-page-load.js'
 import {menu} from './menu.js'
 import {contact} from './contact.js'
 
+import './style.css'
+
 
 console.log("You are Heartly Welcome To Our Restaurant");
 console.log("Here is the MENU")
 
 initialPageLoad();
+
 
 let tabSwitchingModule=(function()
 {
