@@ -1,1 +1,1 @@
-# restaurant_site
+Restaurant Website made using only Javascript (webpack & npm)
