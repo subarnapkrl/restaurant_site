@@ -1,7 +1,7 @@
-export  function initialPageLoad()
+export function initialPageLoad()
 {
     const contentDiv=document.querySelector("#content");
-
+    contentDiv.replaceChildren();
     const navbar=document.createElement('nav');
 
     const banner=document.createElement("div");
